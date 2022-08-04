@@ -10,9 +10,10 @@ header{
     height: 100%;
     position: relative;
     display: grid;
-    grid-template-columns: 40% 40% 20% ;
+    grid-template-columns: 40% 55% ;
     gap: 2%;
 }
+
 
 /*###################CTA###############*/
 
@@ -32,12 +33,19 @@ header{
 .header__socials{
     background: rgb(0,0,0,0.3);
     height: fit-content;
- padding: 10px;
- margin-top: 5rem;
-margin-right: 3rem;
-    
+ padding: 15px;
+ position:absolute;
+ right:-0.5rem;
+ top: 2.5rem ;
+ 
 }
 
+.header__socials a{    
+    display: flex;
+    gap: 1rem; 
+    margin-bottom: 15px;
+ 
+}
 /*##############Me############*/
 
 .me{
@@ -73,12 +81,6 @@ font-weight: 200;
 font-size: 0.9rem;
 }
 
-.header__socials a{    
-        display: flex;
-        gap: 0.7rem; 
-        margin-bottom: 3px;
-        font-size: 0.9rem;
-}
 
 /*#######################Media Queries for small devices############################*/
 

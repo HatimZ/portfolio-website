@@ -11,8 +11,8 @@ const Nav = () => {
   return (
     <nav>
         <a href="#" onClick={ () => setActiveState('#')} className={navState === '#' ? 'active' : ''} ><AiFillHome/></a>
-        <a href="#experience" onClick={ () => setActiveState('#experience')} className={navState === '#experience' ? 'active' : ''}><MdWork/></a>
-        <a href="#skills" onClick={ () => setActiveState('#skills')} className={navState === '#skills' ? 'active' : ''}><GiNotebook/></a>
+        <a href="#skills" onClick={ () => setActiveState('#experience')} className={navState === '#experience' ? 'active' : ''}><MdWork/></a>
+        <a href="#experience" onClick={ () => setActiveState('#skills')} className={navState === '#skills' ? 'active' : ''}><GiNotebook/></a>
         <a href="#contact" onClick={ () => setActiveState('#contact')} className={navState === '#contact' ? 'active' : ''}><MdContactMail/></a>
 
     </nav>
