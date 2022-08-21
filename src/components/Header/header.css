@@ -1,14 +1,9 @@
-header{
-    height: 90vh;
-    padding-top: 4rem;
-    overflow: hidden;
-}
 
 .header__container{
 
-    
+    padding-top: 4rem;
     height: 100%;
-    position: relative;
+    position: relative;   /***?????*/
     display: grid;
     grid-template-columns: 40% 55% ;
     gap: 2%;
@@ -35,8 +30,9 @@ header{
     height: fit-content;
  padding: 15px;
  position:absolute;
+ border: 1px solid var(--color-primary-variant);
  right:-0.5rem;
- top: 2.5rem ;
+ top: 5rem ;
  
 }
 
@@ -89,11 +85,28 @@ font-size: 0.9rem;
   
 
     .header__container{
-       grid-template-columns: 1fr; /*forces the first column to take the whole horizontal space*/
+       display: flex;
+       gap: 20px;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+       padding-left: 3rem;
+       padding-top: 2rem;
+
     }
+.cta{
+    justify-content: center; 
+}
+
+
 .me{
-    height: 18rem;
-    width: 50vh;
+    
+    width: 30%;
+    height: 30%;
+}
+
+.scroll__down{
+    display: none;
 }
    
 
@@ -103,7 +116,7 @@ font-size: 0.9rem;
 @media screen and (max-width:600px){
 
   
-    .scroll__down, .header__socials{
+    .header__socials{
         display: none;
     }
 
@@ -114,6 +127,12 @@ font-size: 0.9rem;
     
    }
 
+   .header__container{
+  
+    padding-left: 0rem;
+   
+
+ }
 }
 
 

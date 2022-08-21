@@ -1,26 +1,34 @@
-nav {
-    background: rgb(0,0,0,0.3);
-    width: max-content; /*the black background covers the length inside contents*/
-    display: block;
-    padding: 0.7rem 1.7rem;
-    z-index: 2;
+
+.nav-bar {
+    background: #181818;
+    width: 60px;
+    height: 100%;
     position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 2rem;
-    display: flex;
-    gap: 0.8rem;
-    border-radius: 3rem;
-    backdrop-filter: blur(15px);
-}
+    top: 0;
+    z-index: 3;
+    min-height: 500px;}
+
+
+nav {
+    display: block;
+    text-align: center;
+    position: relative;
+    height: 210px;
+    top: 50%;
+    margin-top: -120px;
+    width: 100%; }
 
 nav a{
-    padding: 0.9rem;
-    border-radius: 50%;
+    font-size: 22px;
+    color: #4d4d4e;
     display: flex;
-    font-size: 1.1rem;
-    color: var(--color-light);
-    background: transparent;   
+    line-height: 51px;
+    height: 51px;
+    position: relative;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 18px;  
+    margin-bottom: 20px;
 }
 
 nav a:hover{
@@ -30,4 +38,49 @@ nav a:hover{
 nav a.active{
     background: var(--color-primary);
     color: var(--color-white);
+}
+
+/*#######################Media Queries for small devices############################*/
+
+@media screen and (max-width:1024px){
+
+  
+
+
+}
+
+@media screen and (max-width:600px){
+    .nav-bar {
+        background: transparent;
+       }
+
+    nav {
+        background: rgb(0,0,0,0.3);
+        width: max-content; /*the black background covers the length inside contents*/
+        
+        padding: 0.7rem 1.7rem;
+        z-index: 2;
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        
+        display: flex;
+        gap: 0.8rem;
+        border-radius: 3rem;
+        backdrop-filter: blur(15px);
+        height: 4.5rem;
+        top : 105%;
+    }
+
+    
+    nav a{
+        padding: 0.9rem;
+        border-radius: 50%;
+        display: flex;
+        font-size: 1.1rem;
+        color: var(--color-light);
+        background: transparent;   
+    
+    }  
+
 }

@@ -12,111 +12,74 @@ const Experience = () => {
         <div className="container service__container">
             <article className='service'>
                 <div className="service__head">
-                    <h3>UI/UX Design</h3>
+                    <h3>Software Engineer at QuickStart Inc</h3>
+                    
                 </div>
-                <ul className='service_list'>
+                <ul className='service__list'>
                     <li>
                         <GoPrimitiveDot className='service_list-icon'/>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p>Developed ETL tasks in python to migrate data from Magento to Amazon Redshift </p>
                     </li>
                     <li>
                         <GoPrimitiveDot className='service_list-icon'/>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p>Applauded for my efforts in creating an in-house data dashboard and student activity tracker using Flutter/Dart </p>
                     </li>
                     <li>
                         <GoPrimitiveDot className='service_list-icon'/>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p>Developed ETL pipeline to clean data in Amazon Redshift and connect to Excel through ODBC driver. Data is cleaned, labelled and categorized</p>
                     </li>
                     <li>
                         <GoPrimitiveDot className='service_list-icon'/>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p>Coded a Python Class that provides CRUD methods to manage files in Amazon S3 bucket </p>
                     </li>
                     <li>
                         <GoPrimitiveDot className='service_list-icon'/>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p>Wrote Bash scripts to automate tasks and Cron jobs on Linux servers  </p>
                     </li>
                     <li>
                         <GoPrimitiveDot className='service_list-icon'/>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p>Engineered APIs in Flask to convert pdfs to Images without saving any file locally</p>
                     </li>
                     <li>
                         <GoPrimitiveDot className='service_list-icon'/>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p>Engineered an API in Django to communicate with Postgres DB and update student’s information</p>
                     </li>
                 </ul>
             </article>
 
             <article className='service'>
                 <div className="service__head">
-                    <h3>Web Development</h3>
+                    <h3>Web Development Skills Through Projects</h3>
                 </div>
-                <ul className='service_list'>
+                <ul className='service__list'>
                     <li>
                         <GoPrimitiveDot className='service_list-icon'/>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p>Software Development Methodologies and Software Architecture</p>
                     </li>
                     <li>
                         <GoPrimitiveDot className='service_list-icon'/>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p>Desiging UI and UX for Data Dashboards</p>
                     </li>
                     <li>
                         <GoPrimitiveDot className='service_list-icon'/>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p>Resposive Web Design Using Cutting Edge Tech : React , Flutter</p>
                     </li>
                     <li>
                         <GoPrimitiveDot className='service_list-icon'/>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p>Designing API's and Database Schemas</p>
                     </li>
                     <li>
                         <GoPrimitiveDot className='service_list-icon'/>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p>Scalable and Robust Coding using Python</p>
                     </li>
                     <li>
                         <GoPrimitiveDot className='service_list-icon'/>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p>Asynchronous Programming Using Dart and Python</p>
                     </li>
-                    <li>
-                        <GoPrimitiveDot className='service_list-icon'/>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    </li>
+                
                 </ul>
             </article>
 
-            <article className='service'>
-                <div className="service__head">
-                    <h3>Phillips Signify</h3>
-                </div>
-                <ul className='service_list'>
-                    <li>
-                        <GoPrimitiveDot className='service_list-icon'/>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    </li>
-                    <li>
-                        <GoPrimitiveDot className='service_list-icon'/>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    </li>
-                    <li>
-                        <GoPrimitiveDot className='service_list-icon'/>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    </li>
-                    <li>
-                        <GoPrimitiveDot className='service_list-icon'/>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    </li>
-                    <li>
-                        <GoPrimitiveDot className='service_list-icon'/>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    </li>
-                    <li>
-                        <GoPrimitiveDot className='service_list-icon'/>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    </li>
-                    <li>
-                        <GoPrimitiveDot className='service_list-icon'/>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    </li>
-                </ul>
-            </article>
 
         </div>
 

@@ -1,0 +1,84 @@
+.container.contact__container{
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+}
+
+.contact__option {
+    background : var(--color-bg-variant);
+    color: var(--color-white);
+    border: 1px solid transparent;
+    border-radius: 1.2rem;
+    padding: 1.2rem;
+    text-align: center;    /*text-align is used for block which is a defalut display , justify content is used for flex*/
+    transition: var(--transition);
+
+}
+
+.contact__option:hover{
+    background: transparent;
+    border-color : var(--color-primary-variant);
+}
+
+
+.contact__options{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact__option-icon{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact__option a{
+    margin-top: 0.7rem;
+    font-size: 0.8rem;
+    display: inline-block;
+
+}
+
+/*///////////////////////FORM//////////////////////////*/
+/*When there is a single column of elements use flex and column*/
+/*When there are multiple columns use grid and grid-template-columns*/
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-bottom: 10rem;
+}
+
+input,textarea {
+    width: 100%;
+    background: transparent;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color: var(--color-white);
+}
+
+
+/*#######################Media Queries for small devices############################*/
+
+@media screen and (max-width:1024px){
+
+    .container.contact__container{
+        grid-template-columns: 1fr; 
+        gap: 2rem;
+    }
+
+}
+
+@media screen and (max-width:600px){
+
+    .container.contact__container{
+   
+    width: var(--container-width-sm);
+}
+
+}

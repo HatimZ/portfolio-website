@@ -1,0 +1,62 @@
+
+
+.container.portfolio__container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); /*make three columns with equal width and put children inside it*/
+    gap: 2.5rem;
+}
+
+.portfolio__item {
+    background: var(--color-bg-variant);
+    border-radius: 2rem;
+    padding: 1.2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.portfolio__item:hover{
+    background: transparent;
+    border-color: var(--color--primary-variant);
+}
+
+.portfolio__item-image{
+
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.portfolio__item h3{
+    margin: 1.2rem 0 2rem;
+}
+
+.portfolio__item-cta{
+
+    display: flex;
+    margin-bottom: 1rem;
+    gap : 1rem ;
+}
+
+/*#######################Media Queries for small devices############################*/
+
+@media screen and (max-width:1024px){
+
+    .container.portfolio__container{
+        grid-template-columns: 1fr 1fr; 
+        gap: 1.2rem;
+        padding-left: 3rem;
+    }
+
+  
+
+}
+
+@media screen and (max-width:600px){
+
+.container.portfolio__container{
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding-left: 0rem;
+}
+
+}
+
