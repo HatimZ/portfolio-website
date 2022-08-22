@@ -5,11 +5,12 @@ import Skills from './components/Skills/skills'
 import Contact from './components/Contact/contact'
 import Experience from './components/Experience/experience'
 import Portfolio from './components/Portfolio/portfolio'
+import Banner from './components/Banner/Banner'
 
 const App = () => {
   return (
     <>
-    <Header/>
+    <Banner/>
     <Nav/>
     
     <Skills/>
