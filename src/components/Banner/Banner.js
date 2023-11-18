@@ -66,7 +66,7 @@ const Banner = () => {
                 <h1>{`I'm Hatim Zahid`} </h1>
                   <h2>Software Engineer</h2>
                   <HeaderSocials/>  
-                  <p>An experienced software developer working with Django (Python) , Flutter and React. Developing on Linux and Amazon Web Services. Building amazing projects and sharing knowledge through blogging !.</p>
+                  <p>2+ year experienced software developer working with Django (Python) , Vue.js, HTML ,CSS and Bootstrap. Developing on Linux and Amazon Web Services. Building amazing projects and sharing knowledge through blogging !.</p>
                   <CTA/>
                   
               </div>}
