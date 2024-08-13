@@ -41,7 +41,7 @@ const Contact = () => {
           <article className="contact__option">
               <AiOutlineMail className='contact__option-icon'/>
               <h4>WhatsApp</h4>
-              <h5>+923353266221</h5>
+              <h5>+14376739579</h5>
               <a href="https://api.whatsapp.com/send?phone+923353266221" target="_blank">Send a Message</a>
           
           </article>

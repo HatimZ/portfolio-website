@@ -1,5 +1,5 @@
 import React from 'react'
-import {GoPrimitiveDot} from 'react-icons/go'
+import {GoAlert} from 'react-icons/go'
 import './experience.css'
 
 
@@ -17,31 +17,31 @@ const Experience = () => {
                 </div>
                 <ul className='service__list'>
                     <li>
-                        <GoPrimitiveDot className='service_list-icon'/>
+                        <GoAlert className='service_list-icon'/>
                         <p>Developed ETL tasks in python to migrate data from Magento to Amazon Redshift </p>
                     </li>
                     <li>
-                        <GoPrimitiveDot className='service_list-icon'/>
+                        <GoAlert className='service_list-icon'/>
                         <p>Applauded for my efforts in creating an in-house data dashboard and student activity tracker using Flutter/Dart </p>
                     </li>
                     <li>
-                        <GoPrimitiveDot className='service_list-icon'/>
+                        <GoAlert className='service_list-icon'/>
                         <p>Developed ETL pipeline to clean data in Amazon Redshift and connect to Excel through ODBC driver. Data is cleaned, labelled and categorized</p>
                     </li>
                     <li>
-                        <GoPrimitiveDot className='service_list-icon'/>
+                        <GoAlert className='service_list-icon'/>
                         <p>Coded a Python Class that provides CRUD methods to manage files in Amazon S3 bucket </p>
                     </li>
                     <li>
-                        <GoPrimitiveDot className='service_list-icon'/>
+                        <GoAlert className='service_list-icon'/>
                         <p>Wrote Bash scripts to automate tasks and Cron jobs on Linux servers  </p>
                     </li>
                     <li>
-                        <GoPrimitiveDot className='service_list-icon'/>
+                        <GoAlert className='service_list-icon'/>
                         <p>Engineered APIs in Flask to convert pdfs to Images without saving any file locally</p>
                     </li>
                     <li>
-                        <GoPrimitiveDot className='service_list-icon'/>
+                        <GoAlert className='service_list-icon'/>
                         <p>Engineered an API in Django to communicate with Postgres DB and update student’s information</p>
                     </li>
                 </ul>
@@ -53,27 +53,27 @@ const Experience = () => {
                 </div>
                 <ul className='service__list'>
                     <li>
-                        <GoPrimitiveDot className='service_list-icon'/>
+                        <GoAlert className='service_list-icon'/>
                         <p>Software Development Methodologies and Software Architecture</p>
                     </li>
                     <li>
-                        <GoPrimitiveDot className='service_list-icon'/>
+                        <GoAlert className='service_list-icon'/>
                         <p>Desiging UI and UX for Data Dashboards</p>
                     </li>
                     <li>
-                        <GoPrimitiveDot className='service_list-icon'/>
+                        <GoAlert className='service_list-icon'/>
                         <p>Resposive Web Design Using Cutting Edge Tech : React , Flutter</p>
                     </li>
                     <li>
-                        <GoPrimitiveDot className='service_list-icon'/>
+                        <GoAlert className='service_list-icon'/>
                         <p>Designing API's and Database Schemas</p>
                     </li>
                     <li>
-                        <GoPrimitiveDot className='service_list-icon'/>
+                        <GoAlert className='service_list-icon'/>
                         <p>Scalable and Robust Coding using Python</p>
                     </li>
                     <li>
-                        <GoPrimitiveDot className='service_list-icon'/>
+                        <GoAlert className='service_list-icon'/>
                         <p>Asynchronous Programming Using Dart and Python</p>
                     </li>
                 

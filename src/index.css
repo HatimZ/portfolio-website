@@ -105,6 +105,21 @@ transition: var(--transition);
 
 }
 
+.slide {
+    align-self: center;
+    color: var(--color-primary);
+    padding: 2rem 1.5rem;
+    margin-right: 40px;
+    margin-left: 40px;
+
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: var(--transition);
+    background-color: rgba(255, 255, 255, 0.1); /* White background with 80% opacity */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a soft shadow */
+}
+
+
 .btn:hover{
     background:var(--color-white) ;
     color: var(--color-bg);

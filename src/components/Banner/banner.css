@@ -62,7 +62,12 @@
   .banner button:hover svg {
     margin-left: 25px;
   }
-  .banner img {
+  .slide {
+
+  }
+
+
+  .animated-image {
     animation: updown 3s linear infinite;
   }
   @keyframes updown {
